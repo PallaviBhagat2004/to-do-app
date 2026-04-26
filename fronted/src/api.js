@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://to-do-app-0ahp.onrender.com/',
+  baseURL: 'https://to-do-app-fb1y.onrender.com',
 });
 
 export const fetchTodos = () => api.get('/todos').then((r) => r.data);

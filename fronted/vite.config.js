@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 3000,
     proxy: {
-      '/api': 'https://to-do-app-0ahp.onrender.com',
+      '/api': 'https://to-do-app-fb1y.onrender.com',
     },
   },
 });
